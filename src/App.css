@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #fdf8ffc2;
+}
+
+body {
+  margin: 50px auto;
+  height: fit-content;
+  width: fit-content;  
+}
+
+.App {
+  max-width: 1000px; 
+  height: fit-content;
+  padding: 50px 50px; 
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background: lightseagreen;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+footer {
+  font-family: 'Source Code Pro', monospace;
+  padding: 50px 0px 20px 0px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #71788a;
+}
+
+.GitHubLink {
+  color: var(--primary-color);
+}

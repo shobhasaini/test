@@ -1,0 +1,21 @@
+:root {
+    --main-color: #fdf8ffc2; 
+}
+
+.Forecast {
+    color: var(--main-color);
+    margin-top: 50px;
+    text-align: center; 
+    font-size: 20px;    
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+
+.col {
+    margin: 40px 20px 10px;
+
+}
+
+.ForecastDate, .ForecastMax {
+    font-weight: 500;
+}
